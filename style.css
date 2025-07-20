@@ -2,6 +2,12 @@ body{
     margin: 0;
     font-family:'Lato', sans-serif;
     box-sizing: border-box;
+    position: relative;
+}
+
+.italic{
+    font-style: italic;
+    color: #333;
 }
 
 .containor{
@@ -19,6 +25,10 @@ body{
     background-color: white;
 }
 
+.page h1{
+    margin-bottom: 0;
+}
+
 h2{
     font-size: 1.5rem;
     font-weight: bold;
@@ -31,27 +41,27 @@ h2{
 }
 
 .menu{
-    position: absolute;
+    position: fixed;
     z-index: 100;
     top: -5rem;
-    left: -4rem;
+    left: -6rem;
 }
 
 .circle{
     border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     background-color: #FF7979;
-    position: relative;
+    position: absolute;
     transition: transform 0.5s linear;
 }
 
 .rotate{
-    transform: rotate(-100deg);
+    transform: rotate(-120deg);
 }
 
 .rotate2{
-    transform: rotate(-22deg);
+    transform: rotate(-20deg);
 }
 
 .circle button{
@@ -67,13 +77,13 @@ h2{
 }
 
 .circle #start{
-    left: 5.5rem;
-    top: 6.5rem;
+    left: 7.5rem;
+    top: 7.5rem;
 }
 
 .circle #end{
-    left: 1rem;
-    top:5rem;
+    left: 1.5rem;
+    top: 5.5rem;
 }
 
 .list{
@@ -81,7 +91,7 @@ h2{
     font-size: 1rem;
     position: fixed;
     z-index: 100;
-    top: 20rem;
+    top: 25rem;
     left: -7rem;
 }
 
